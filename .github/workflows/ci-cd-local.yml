@@ -24,6 +24,7 @@ jobs:
         run: mvn clean package -DskipTests
 
       - name: Ejecutar app
+        working-directory: calculator
         run: |
           pkill -f 'java -jar' || true
           nohup java -jar target/*.jar > app.log 2>&1 &
