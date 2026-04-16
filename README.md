@@ -1,3 +1,3 @@
-# Calculator CD / CU Testing Project
+# Calculator CI / CD Testing Project
 
 Project example
