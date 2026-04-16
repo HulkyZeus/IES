@@ -24,6 +24,7 @@ public class CalculatorController {
 
         double resultado = calculatorService.sumar(a, b);
         return ResponseEntity.ok(Map.of(
+                "id", "1234",
                 "operacion", "sumar",
                 "a", a,
                 "b", b,
